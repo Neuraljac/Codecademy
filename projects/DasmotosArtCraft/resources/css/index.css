@@ -1,0 +1,48 @@
+h1 {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    background: url(C:/projects/DasmotosArtCraft/resources/img/pattern.jpeg);
+    background-size: cover;
+}
+
+h4 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+h5 {
+    margin: 18.72px 0px;
+    font-family: Helvetica;
+    font-size: 18.72px;
+    font-weight: 700px;
+}
+
+p {
+    font-family: Helvetica;
+}
+
+p span {
+    font-weight: bold;
+    color: blue;
+}
+
+.brushes h4 {
+    background-color: mediumspringgreen;
+
+}
+
+.frames h4 {
+    background-color: coral;
+
+}
+
+.paints h4 {
+    background-color: skyblue;
+
+}
+
