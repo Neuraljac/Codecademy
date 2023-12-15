@@ -24,7 +24,7 @@ body {
   grid-template-columns: 10px 1fr 3fr 1fr;
   position: absolute;
   width: 100%;
-  height: 60px;
+  height: 50px;
   background-color: rgba(120,70,154, 0.2);
   text-align: center;
   top: 0;
