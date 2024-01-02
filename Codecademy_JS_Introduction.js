@@ -41,3 +41,7 @@ console.log(Math.ceil(43.8));
 
 // Use the JavaScript documentation to find a method on the built-in Number object that checks if a number is an integer. Put the number 2017 in the parentheses of the method and use console.log() to print the result.
 console.log(Number.isInteger(2017));
+
+// Declare a variable named favoriteFood using the var keyword and assign to it the string 'pizza'.
+var favoriteFood = 'pizza'
+
