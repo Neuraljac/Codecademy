@@ -69,3 +69,23 @@ console.log(entree);
 // This code throws the following error when you run your code: TypeError: Assignment to constant variable.
 entree = 'Tacos';
 
+// Use the += mathematical assignment operator to increase the value stored in levelUp by 5.
+//
+let levelUp = 10;
+let powerLevel = 9001;
+let multiplyMe = 32;
+let quarterMe = 1152;
+
+// Use the mathematical assignments in the space below:
+levelUp += 5;
+
+
+
+
+
+// These console.log() statements below will help you check the values of the variables.
+// You do not need to edit these statements. 
+console.log('The value of levelUp:', levelUp); 
+console.log('The value of powerLevel:', powerLevel); 
+console.log('The value of multiplyMe:', multiplyMe); 
+console.log('The value of quarterMe:', quarterMe);
