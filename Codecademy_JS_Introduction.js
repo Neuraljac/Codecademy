@@ -49,4 +49,5 @@ var favoriteFood = 'pizza'
 var numOfSlices = 8
 
 // Under the numOfSlices variable, use console.log() to print the value saved to favoriteFood. On the following line, use console.log() to print the value saved to numOfSlices.
+console.log(favoriteFood)
 console.log(numOfSlices)
