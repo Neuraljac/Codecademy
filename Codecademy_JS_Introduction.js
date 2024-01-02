@@ -58,3 +58,7 @@ let changeMe = true;
 // On the line after changeMe is declared, set the value of changeMe to be the boolean false. To check if changeMe was reassigned, log the value saved to changeMe to the console.
 changeMe = false;
 console.log(changeMe);
+
+// Create a constant variable named entree and set it to equal to the string 'Enchiladas'.
+const entree = 'Enchiladas'
+
