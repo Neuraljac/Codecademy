@@ -45,3 +45,5 @@ console.log(Number.isInteger(2017));
 // Declare a variable named favoriteFood using the var keyword and assign to it the string 'pizza'.
 var favoriteFood = 'pizza'
 
+// Declare a variable named numOfSlices using the var keyword and assign to it the number 8.
+var numOfSlices = 8
