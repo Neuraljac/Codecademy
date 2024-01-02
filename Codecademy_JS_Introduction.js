@@ -70,7 +70,9 @@ console.log(entree);
 entree = 'Tacos';
 
 // Use the += mathematical assignment operator to increase the value stored in levelUp by 5.
-//
+// Use the -= mathematical assignment operator to decrease the value stored in powerLevel by 100.
+// Use the *= mathematical assignment operator to multiply the value stored in multiplyMe by 11.
+
 let levelUp = 10;
 let powerLevel = 9001;
 let multiplyMe = 32;
@@ -78,8 +80,7 @@ let quarterMe = 1152;
 
 // Use the mathematical assignments in the space below:
 levelUp += 5;
-
-
+powerLevel -= 100;
 
 
 
