@@ -112,3 +112,13 @@ let myCity = 'New Haven'
 
 // Use a single template literal to interpolate your variables into the sentence below. Use console.log() to print your sentence to the console in the following format: My name is NAME. My favorite city is CITY. Replace NAME and CITY in the string above by interpolating the values saved to myName and myCity.
 console.log(`My name is ${myName}. My favorite city is ${myCity}`);
+
+// Use console.log() to print the typeof newVariable.
+let newVariable = 'Playing around with typeof.';
+console.log(typeof newVariable); // Output: string
+
+// Great, now let’s check what happens if we reassign the variable. Below the console.log() statement, reassign newVariable to 1.
+newVariable = 1;
+
+// Since you assigned this new value to newVariable, it has a new type! On the line below your reassignment, use console.log() to print typeof newVariable again.
+console.log(typeof newVariable); // Output: number
