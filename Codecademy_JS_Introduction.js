@@ -89,3 +89,12 @@ console.log('The value of levelUp:', levelUp);
 console.log('The value of powerLevel:', powerLevel); 
 console.log('The value of multiplyMe:', multiplyMe); 
 console.log('The value of quarterMe:', quarterMe);
+
+// Using the increment operator, increase the value of gainedDollar.
+let gainedDollar = 3;
+gainedDollar ++;
+
+// Using the decrement operator, decrease the value of lostDollar.
+let lostDollar = 50;
+lostDollar --;
+
