@@ -1,3 +1,5 @@
+// This project allows you to change the temperature in Kelvin and see what it would become in Fahrenheit.
+
 // Define kelvin as a constant variable with the value of 293.
 const kelvin = 0;
 
