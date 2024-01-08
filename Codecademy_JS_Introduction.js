@@ -122,3 +122,19 @@ newVariable = 1;
 
 // Since you assigned this new value to newVariable, it has a new type! On the line below your reassignment, use console.log() to print typeof newVariable again.
 console.log(typeof newVariable); // Output: number
+
+// Using the let keyword, declare a variable named sale. Assign the value true to it.
+let sale = true;
+
+// Now create an if statement. Provide the if statement a condition of sale. Inside the code block of the if statement, console.log() the string 'Time to buy!'.
+if (sale) {
+  console.log('Time to buy!');
+}
+
+// Notice that the code inside the if statement ran, since 'Time to buy!' was logged to the console. Below the sale variable declaration, but before the if statement, reassign sale to false. Run your code and observe what happens, we’ll be changing this behavior in the next exercise.
+let sale = true;
+sale = false;  // Undoes the previous definition.
+if (sale) {
+  console.log('Time to buy!');
+} // Does not print to console.
+
