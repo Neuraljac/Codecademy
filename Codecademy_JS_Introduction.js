@@ -432,6 +432,14 @@ plantNeedsWater('Tuesday');
 // Let’s check that plantNeedsWater() returned the expected value. Log plantNeedsWater('Tuesday') to the console. If it worked correctly, you should see false logged to the console.
 console.log(plantNeedsWater('Tuesday'));
 
+//Change plantNeedsWater() to use arrow function syntax.
+const plantNeedsWater = (day) => {
+  if (day === 'Wednesday') {
+    return true;
+  } else {
+    return false;
+  }
+};
 
 
 
