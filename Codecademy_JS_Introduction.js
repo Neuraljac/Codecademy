@@ -344,3 +344,17 @@ sayThanks();
 sayThanks();
 sayThanks();
 
+// The sayThanks() function works well, but let’s add the customer’s name in the message. Add a parameter called name to the function declaration for sayThanks().
+function sayThanks(name) {
+  console.log('Thank you for your purchase! We appreciate your business.');
+}
+
+// With name as a parameter, it can be used as a variable in the function body of sayThanks(). Using name and string concatenation, change the thank you message into the following: 'Thank you for your purchase '+ name + '! We appreciate your business.' Copy and paste the above message into your code.
+function sayThanks(name) {
+  console.log('Thank you for your purchase ' + name + '! We appreciate your business.');
+}
+
+// A customer named Cole just purchased something from your online store. Call sayThanks() and pass 'Cole' as an argument to send Cole a personalized thank you message.
+sayThanks('Cole');
+
+// 
