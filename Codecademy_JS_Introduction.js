@@ -305,7 +305,7 @@ switch (athleteFinalPosition) {
 // Now, add a default statement at the end of the switch that uses console.log() to print 'No medal awarded.'. If athleteFinalPosition does not equal any value of our cases, then the string 'No medal awarded.' is logged to the console. Remember to add the break keyword at the end of the default case.
 let athleteFinalPosition = 'first place';
 
-switch(athleteFinalPosition){
+switch (athleteFinalPosition) {
   case 'first place':
     console.log('You get the gold medal!');
     break;
@@ -313,10 +313,10 @@ switch(athleteFinalPosition){
     console.log('You get the silver medal!');
     break;
   case 'third place':
-    console.log('You get the bronze medal!');
+    console.log('You get the bronze medal!')
     break;
   default:
     console.log('No medal awarded.');
-    break;
 }
 
+// 
