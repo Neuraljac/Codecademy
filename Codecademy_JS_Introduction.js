@@ -494,7 +494,20 @@ logVisibleLightWaves()
 // Beneath the function call, log the value of lightWaves to the console from outside the function. You’ll notice that it logs a ReferenceError since the variable is tied to the block scope of the function!
 console.log(lightWaves);
 
+// Let’s see what happens if we create a variable that overwrites a global variable. Inside the callMyNightSky() function, on the very first line of the function body, assign the variable stars to 'Sirius' as such: stars = 'Sirius';
+const satellite = 'The Moon';
+const galaxy = 'The Milky Way';
+let stars = 'North Star';
 
+const callMyNightSky = () => {
+  stars = 'Sirius';
+	return 'Night Sky: ' + satellite + ', ' + stars + ', ' + galaxy;
+};
+
+console.log(callMyNightSky());
+
+// Outside the function, under the current console.log() statement, add another console.log() statement to log stars to the console. You’ll notice that the global variable stars was reassigned to 'Sirius'. In other words, we changed the value of the global stars variable but it’s not easy to read what exactly happened. This is bad practice in code maintainability and could impact our program in ways we do not intend.
+console.log(stars);
 
 
 
