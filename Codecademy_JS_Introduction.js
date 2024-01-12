@@ -441,6 +441,28 @@ const plantNeedsWater = (day) => {
   }
 };
 
+// At the top of main.js, declare a const variable, named city set equal to 'New York City'. This variable will exist outside of the block.
+const city = 'New York City';
+
+// Below the city variable, write a function named logCitySkyline.
+function logCitySkyline() {
+  
+}
+
+// Inside of the function body of logCitySkyline(), write another variable using let named skyscraper and set it equal to 'Empire State Building'.
+function logCitySkyline() {
+  let skyscraper = 'Empire State Building';
+}
+
+// Inside the function, include a return statement like this: return 'The stars over the ' + skyscraper + ' in ' + city;
+function logCitySkyline() {
+  let skyscraper = 'Empire State Building';
+  return 'The stars over the ' + skyscraper + ' in ' + city;
+}
+
+// Beneath the logCitySkyline() function, use console.log() to log the value of logCitySkyline() to the console. You’ll notice that the logCitySkyline() function is able to access both variables without any problems. In the next exercise we’ll consider why would it be preferable to have one variable outside of a block and the other inside of a block.
+console.log(logCitySkyline());
+
 
 
 
