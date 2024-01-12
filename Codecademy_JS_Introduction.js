@@ -463,6 +463,18 @@ function logCitySkyline() {
 // Beneath the logCitySkyline() function, use console.log() to log the value of logCitySkyline() to the console. You’ll notice that the logCitySkyline() function is able to access both variables without any problems. In the next exercise we’ll consider why would it be preferable to have one variable outside of a block and the other inside of a block.
 console.log(logCitySkyline());
 
+// At the top of main.js, write three global variables: Name the first variable satellite and set it equal to 'The Moon'. Name the second variable galaxy and set it equal to 'The Milky Way'. Name the third variable stars and set it equal to 'North Star'.
+const satellite = 'The Moon';
+const galaxy = 'The Milky Way';
+const stars = 'North Star';
+
+// Below the variables created in the previous step, write a function named callMyNightSky. Inside the function, include a return statement like this: return 'Night Sky: ' + satellite + ', ' + stars + ', and ' + galaxy;
+const callMyNightSky = () => {
+  return 'Night Sky: ' + satellite + ', ' + stars + ', and ' + galaxy;
+}
+
+// Beneath the callMyNightSky() function, use console.log() to log the value of callMyNightSky() to the console. You’ll notice that the function block for callMyNightSky() is able to access the global variables freely since the variables are available to all lines of code in the file.
+console.log(callMyNightSky());
 
 
 
