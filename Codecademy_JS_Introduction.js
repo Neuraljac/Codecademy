@@ -476,6 +476,35 @@ const callMyNightSky = () => {
 // Beneath the callMyNightSky() function, use console.log() to log the value of callMyNightSky() to the console. You’ll notice that the function block for callMyNightSky() is able to access the global variables freely since the variables are available to all lines of code in the file.
 console.log(callMyNightSky());
 
+// In main.js, define a function logVisibleLightWaves().
+const logVisibleLightWaves = () => {
+
+}
+
+// Within the logVisibleLightWaves() function, using const, create a variable lightWaves and set it equal to 'Moonlight'.
+// Within the logVisibleLightWaves() function, beneath the lightWaves variable, add a console.log() statement that will log the value of the lightWaves variable when the function runs.
+const logVisibleLightWaves = () => {
+  const lightWaves = 'Moonlight';
+  console.log(lightWaves);
+}
+
+// Call the logVisibleLightWaves() function from outside the function.
+logVisibleLightWaves()
+
+// Beneath the function call, log the value of lightWaves to the console from outside the function. You’ll notice that it logs a ReferenceError since the variable is tied to the block scope of the function!
+console.log(lightWaves);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
