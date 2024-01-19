@@ -568,6 +568,11 @@ console.log(famousSayings[2]);
 // Awesome, you can access each element in an array using the index. But what happens if you try to access an index that is beyond the last element? Try to log the item at index [3] of famousSayings to the console. What is logged to the console?
 console.log(famousSayings[3]); // Undefined
 
+// Change the second element of the array groceryList to 'avocados'.
+let groceryList = ['bread', 'tomatoes', 'milk'];
+groceryList[1] = 'avocados';
+console.log(groceryList); // Output: ['bread', 'avocados', 'milk']
+
 
 
 
