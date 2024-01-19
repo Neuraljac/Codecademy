@@ -550,6 +550,11 @@ const logVisibleLightWaves = () => {
 logVisibleLightWaves();
 
 
+// Declare a variable using const named hobbies and set it equal to an array with three strings inside of it.
+const hobbies = ['string1', 'string2', 'string3'];
+
+// Use console.log() to print hobbies to the console.
+console.log(hobbies);
 
 
 
