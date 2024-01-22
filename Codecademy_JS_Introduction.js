@@ -592,7 +592,12 @@ console.log(utensils);
 const objectives = ['Learn a new language', 'Read 52 books', 'Run a marathon'];
 console.log(objectives.length);
 
-// 
+// Add two elements to the chores array using .push().
+const chores = ['wash dishes', 'do laundry', 'take out trash'];
+chores.push('dust shelves', 'clean off table');
+
+// Use console.log to print your chores array to make sure your items were added.
+console.log(chores);
 
 
 
