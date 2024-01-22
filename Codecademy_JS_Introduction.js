@@ -599,8 +599,12 @@ chores.push('dust shelves', 'clean off table');
 // Use console.log to print your chores array to make sure your items were added.
 console.log(chores);
 
+// Use the .pop() method to remove the last element from chores.
+const chores = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'mop floor'];
+removed = chores.pop();
 
-
+// In a line after you called chores.pop(), log chores to the console to make sure it worked.
+console.log(chores);
 
 
 
