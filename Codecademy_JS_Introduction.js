@@ -626,12 +626,33 @@ console.log(groceryList);
 const pastaIndex = groceryList.indexOf('pasta');
 console.log(pastaIndex);
 
+// In main.js, there is an array concept. There is also a function changeArr that will assign the element in index 3 of an array to 'MUTATED'. The function changeArr was called with an argument of concept. Underneath the function call, log concept to the console to check if this reassignment mutated the array.
+const concept = ['arrays', 'can', 'be', 'mutated'];
+function changeArr(arr){
+  arr[3] = 'MUTATED';
+}
+changeArr(concept);
+console.log(concept);
 
+// Let’s double check what happens if we mutate an array using a built-in method inside a function. Under the console.log() statement, define another function named removeElement that takes a parameter of newArr. Inside the function body call .pop() on newArr.
+function removeElement(newArr) {
+  newArr.pop();
+} 
 
+// Call removeElement() with an argument of concept.
+removeElement(concept);
 
+// After calling removeElement(concept), check the value of concept by logging it to console. Notice that in both cases, the change to the array was maintained outside of the function!
+console.log(concept);
 
+// Let’s make a nested array! Create a variable numberClusters. Assign as its value an array with three array elements.
+// The first array element should hold the elements 1 and 2 in that order.
+// The second array element should hold the elements 3 and 4 in that order.
+// The third array element should hold the elements 5 and 6 in that order.
+const numberClusters = [[1, 2], [3, 4], [5, 6]];
 
-
+// Awesome, you made a nested array! Now declare a variable named target using the const keyword and assign to access the element 6 inside numberClusters.
+const target = numberClusters[2][1];
 
 
 
