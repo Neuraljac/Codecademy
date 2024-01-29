@@ -665,9 +665,12 @@ console.log(vacationSpots[2]);
 
 // Nice work! Now imagine that the vacation list had 100 places on it— logging each array element to the console by hand would be a tedious task! In the next exercise, we will learn how to make things more efficient with for loops.
 
+// Now, make your own! Create a program that loops from 5 to 10 and logs each number to the console. When writing/changing loops, there is a chance that our stopping condition isn’t met and we get a dreaded infinite loop which essentially stops our programming from running anything else! To exit out of an infinite loop in an exercise, refresh the page - then fix the code for your loop.
+for (let counter = 5; counter < 11; counter++) {
+  console.log(counter);
+}
 
-
-
+// 
 
 
 
