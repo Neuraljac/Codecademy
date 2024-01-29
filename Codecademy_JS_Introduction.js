@@ -670,6 +670,11 @@ for (let counter = 5; counter < 11; counter++) {
   console.log(counter);
 }
 
+// Make a for loop that loops backwards printing 3 to 0 to the console. Use the >= comparison operator in your stopping condition and the -- operator in your iteration statement.
+for (let counter = 3; counter >= 0; counter--){
+  console.log(counter);
+}
+
 // 
 
 
