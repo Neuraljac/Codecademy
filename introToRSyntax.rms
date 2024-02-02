@@ -7,6 +7,16 @@ output: html_notebook
  25 * 4 + 9 / 3
 ```
 
+# Add a comment inside the code block that explains that the line of code inside notebook.Rmd is computing the volume to a cube.
+---
+title: "Introduction to R Syntax"
+output: html_notebook
+---
+```{r}
+# This line of code computes the volume to a cube.
+3 * 3 * 3
+```
+
 
 
 
