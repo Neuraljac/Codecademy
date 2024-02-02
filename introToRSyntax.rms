@@ -17,7 +17,27 @@ output: html_notebook
 3 * 3 * 3
 ```
 
+# In order to print a value, you must put the value inside the following syntax: print(). Print your name as a character string.
+---
+title: "Introduction to R Syntax"
+output: html_notebook
+---
+```{r}
+print('Jared')
+```
 
+# Print your age as a numeric type.
+```{r}
+print('Jared')
+print(34)
+```
+
+# On a new line of code, print your age as a character type.
+```{r}
+print('Jared')
+print(34)
+print('34')
+```
 
 
 
