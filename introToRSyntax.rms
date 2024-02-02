@@ -39,8 +39,20 @@ print(34)
 print('34')
 ```
 
+# Create a variable name with your first name as a string.
+---
+title: "Introduction to R Syntax"
+output: html_notebook
+---
+```{r}
+name <- 'Jared'
+```
 
-
+# Create a variable age with your age as a number.
+```{r}
+name <- 'Jared'
+age <- 34
+```
 
 
 
