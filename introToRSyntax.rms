@@ -54,6 +54,11 @@ name <- 'Jared'
 age <- 34
 ```
 
+# Create a numeric vector named phone that contains your phone number as three numbers: your area code, the next three digits, and then the last four.
+```{r}
+phone <- c(555, 555, 5555)
+```
+
 
 
 
