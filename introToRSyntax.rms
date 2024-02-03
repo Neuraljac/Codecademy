@@ -59,7 +59,21 @@ age <- 34
 phone <- c(555, 555, 5555)
 ```
 
+# Create a conditional statement in notebook.Rmd such that it will change the value of the variable message to 'I execute this when true!' when the condition is TRUE, and the value of message to 'I execute this when false!' when it is FALSE.
+---
+title: "Introduction to R Syntax"
+output: html_notebook
+---
+```{r}
+message <- 'I change based on a condition.'
+if (TRUE) {
+   message <- 'I execute this when true!'
+} else {
+   message <- 'I execute this when false!'
+}
 
+print(message)
+```
 
 
 
