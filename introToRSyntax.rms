@@ -86,6 +86,35 @@ print(message)
 56 != 129
 ```
 
+# There are two variables in your code, weather and high_chance_of_rain. Write a conditional statement that: Checks to see if weather is equal cloudy and there is a high_chance_of_rain. If it is both, the code block should assign the value of the variable message to be "Pack umbrella!" Otherwise, the code block should assign the value of the variable message to "No need for umbrella!" Print the message variable after the conditional statement. Based on the condition, what should its value be?
+```{r}
+
+message <- 'Should I pack an umbrella?'
+weather <- 'cloudy'
+high_chance_of_rain <- TRUE
+
+
+if (weather == 'cloudy' & high_chance_of_rain) {
+  message <- "Pack umbrella!"
+} else {
+  message <- "No need for umbrella!"
+}
+
+print(message)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
