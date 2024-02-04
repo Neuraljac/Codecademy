@@ -75,6 +75,16 @@ if (TRUE) {
 print(message)
 ```
 
+# Use a comparison operator to check if 56 is greater than or equal to 129. What should this expression evaluate to? Check by running your code!
+```{r}
+56 >= 129
+```
+
+# In a new line, use the right comparison operator to check if 56 is NOT equal to 129. What should this expression evaluate to? Check by running your code!
+```{r}
+56 >= 129
+56 != 129
+```
 
 
 
