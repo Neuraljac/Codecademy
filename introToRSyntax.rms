@@ -119,7 +119,32 @@ round_down <- floor(3.14)
 round_up <- ceiling(3.14)
 print(round_down, round_up)
 
-
+# Currently, the code inside notebook.Rmd throws an error because it uses the dplyr and readr packages without importing them. Import the dplyr and readr packages by using the library() function and then press run so that you can observe the packages do their magic!
+---
+title: "Introduction to R Syntax"
+output: html_notebook
+---
+```{r}
+# load libraries
+library(dplyr)
+library(readr)
+```
+```{r}
+# load data frame
+artists <- read_csv('artists.csv')
+```
+```{r}
+# inspect data frame
+artists
+head(artists)
+summary(artists)
+```
+```{r}
+artists %>%
+  select(-country,-year_founded,-albums) %>%
+  filter(spotify_monthly_listeners > 20000000, genre != 'Hip Hop') %>%
+  arrange(desc(youtube_subscribers))
+```
 
 
 
