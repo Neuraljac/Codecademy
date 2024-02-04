@@ -104,9 +104,20 @@ print(message)
 
 ```
 
+# The unique() function takes a vector argument and returns a vector with only the unique elements in that vector (removing all duplicates). Call this function and pass in the argument data. Save that result inside a variable named unique_vals. Print unique_vals variable so you can see what is inside the vector with only unique values.
+``{r}
+data <- c(120,22,22,31,15,120)
+unique_vals <- unique(data)
+print(unique_vals)
+```
+# Get the sqrt() square root of the number 49 by calling the function with the specified argument. Save the result inside a variable named solution. Print the solution variable so you can see confirm sqrt() computed the square root correctly.
+solution <- sqrt(49)
+print(solution)
 
-
-
+# The floor() function rounds a decimal down to the next integer, and the ceiling() function will round up to the next integer. Call both functions on the number 3.14, and save each result inside two new variables you create: round_down and round_up respectively. Print both variables so you can see what’s in them!
+round_down <- floor(3.14)
+round_up <- ceiling(3.14)
+print(round_down, round_up)
 
 
 
