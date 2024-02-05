@@ -1,0 +1,5 @@
+# First, create the variable city_name and set it equal to "Istanbul, Turkey" .
+city_name <- "Istanbul, Turkey"
+
+# The dataset starts with the population value for the year 1927 and ends with 2017. Create the variable pop_year_one. In the chart, find the population value for 1927 and set it equal to the variable pop_year_one.
+pop_year_one <- 691000
