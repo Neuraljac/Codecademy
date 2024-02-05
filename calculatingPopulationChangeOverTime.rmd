@@ -3,3 +3,40 @@ city_name <- "Istanbul, Turkey"
 
 # The dataset starts with the population value for the year 1927 and ends with 2017. Create the variable pop_year_one. In the chart, find the population value for 1927 and set it equal to the variable pop_year_one.
 pop_year_one <- 691000
+
+# Next, create the variable pop_year_two. Find the population for 2017 and set its value equal to the variable pop_year_two.
+pop_year_two <-15029231
+
+# Using the variables that we just created, we’re going to write a script that allows us to calculate the annual percentage growth rate. The annual percentage growth rate is the amount in which the population changes each year during a certain period. 
+Using the variables that we just created, we’re going to write a script that allows us to calculate the annual percentage growth rate. The annual percentage growth rate is the amount in which the population changes each year during a certain period. First, create the variable pop_change. Calculate the difference in population between 2017 and 1927 and save the result to the variable pop_change. Feel free to print any of these variables if you want to check their values! Before we calculate the annual percentage growth rate, we need to calculate the percentage growth rate. This is the percentage with which a population changes, but doesn’t account for period of time during which the change takes place. We can calculate percentage growth rate using the following formula: percentage_gr <- (((pop_present - pop_past)/pop_past) * 100) Create the variable percentage_gr. Using the variable pop_change, calculate the annual percentage growth rate between 1927 and 2017 and assign the result to the variable percentage_gr.
+
+Percentage_gr <- (((pop_change) / pop_year_1) * 100)
+
+# Now that we have the percentage growth rate, we can calculate the annual percentage growth. Create a variable for annual_gr. To calculate the annual percentage growth, take the result of the variable percentage_gr and divide it by the number of years elapsed. Set the result equal to the variable annual_gr.
+
+print(percentage_gr)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
