@@ -4,3 +4,66 @@ let storyWords = story.split(' ');
 let unnecessaryWord = 'literally';
 let misspelledWord = 'beautifull';
 let badWord = 'freaking';
+
+// Step 1: Log storyWords to the console
+console.log(storyWords);
+
+// Step 2: Log the final story to the console
+console.log(storyWords.join(' '));
+
+// Step 3: Count the number of words in the story
+let count = 0;
+storyWords.forEach(function(word) {
+  count++;
+});
+console.log(count);
+
+// Step 4: Filter out instances of the word "literally"
+storyWords = storyWords.filter(function(word) {
+  return word !== unnecessaryWord;
+});
+
+// Step 5: Filter out the value of unnecessaryWord from the story
+storyWords = storyWords.filter(function(word) {
+  return word !== unnecessaryWord;
+});
+
+// Step 6: Spell-check words in the story
+storyWords = storyWords.map(function(word) {
+  if (word === misspelledWord) {
+    return 'beautiful';
+  } else {
+    return word;
+  }
+});
+
+// Step 7: Find the index of the bad word
+let badWordIndex = storyWords.findIndex(function(word) {
+  return word === badWord;
+});
+
+console.log(badWordIndex); // Log the index of the bad word
+
+// Step 8: Replace the bad word with 'really'
+if (badWordIndex !== -1) {
+  storyWords[badWordIndex] = 'really';
+}
+
+// Step 9: Check if every word has 10 characters or less
+let lengthCheck = storyWords.every(function(word) {
+  return word.length <= 10;
+});
+
+console.log(lengthCheck); // Log the result of length check
+
+// Step 10: Replace the word longer than 10 characters
+let longWordIndex = storyWords.findIndex(function(word) {
+  return word.length > 10;
+});
+
+if (longWordIndex !== -1) {
+  storyWords[longWordIndex] = 'glorious'; // Replacing with 'glorious'
+}
+
+// Step 11: Log the final story after all modifications
+console.log(storyWords.join(' '));
